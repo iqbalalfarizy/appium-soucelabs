@@ -1,6 +1,6 @@
 import { driver, $, expect } from '@wdio/globals'
 
-class loginPage{
+class LoginPage{
     //element locators
     get username(){ return $('~test-Username') }
     get password(){ return $('~test-Password') }
@@ -21,4 +21,4 @@ class loginPage{
 
 }
 
-export default new loginPage()
+export default new LoginPage()
